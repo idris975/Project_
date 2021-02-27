@@ -1,0 +1,1020 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    }
+
+/* Get Off  */
+#getOff{
+    background-color: #F6475F;
+    width: 100%;
+    height: 55px;
+}
+
+.getoffPara{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight:800;
+    margin-left: 20%;
+    padding-top: 12px;
+}
+.getoffLink{
+    color: white;
+
+}
+.getoffLink:hover{
+    color: white;
+}
+.clearfix p i{
+    cursor: pointer;
+    color: #e4b9be ;
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+.clearfix p i:hover{
+    color:  #ffcad1;
+}
+/* Login Entrance */
+.clearfix::after{
+    display: inline-block;
+    content: "";
+    clear: both;
+}
+#Userlogin{
+    width: 100%;
+    height: 50px;
+    background-color: #343A40;
+
+}
+.contacts{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.contacts:hover{
+    color: #FFBC09;
+    
+}
+.icons{
+    color: white;
+    float: right;
+    list-style-type: none;
+    transition: 0.4s ease-in-out;
+    font-size: 16px;
+    margin-left: 25px;
+}
+.icons:hover{
+    color: #FFBC09;
+}
+.iconUl{
+    position: relative;
+    bottom: 40px;
+    right: 350px;
+
+}
+.vl{
+    border-left: 2px solid white;
+    height: 30px;
+    position: relative;
+    left: 1035px;
+    bottom: 42px;
+
+}
+/*
+.btn {
+    color: #fff;
+    cursor: pointer;
+    // display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+
+    //   @media(min-width: 400px) {
+    //     display: inline-block;
+    //     margin-right: 2.5em;
+
+    //     &:nth-of-type(even) {
+    //       margin-right: 0;
+    //     }
+    //   }
+
+    @media (min-width: 600px) {
+        margin: 0 1em 2em;
+
+        //     &:nth-of-type(even) {
+        //       margin-right: 2.5em;
+        //     }
+
+        //     &:nth-of-type(5) {
+        //       margin-right: 0;
+        //     }
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+.btn-4 {
+    border: 1px solid;
+    overflow: hidden;
+    position: relative;
+
+    span {
+        z-index: 20;
+    }
+
+    bnt::after {
+        background: #fff;
+        content: "";
+        height: 155px;
+        left: -75px;
+        opacity: 0.2;
+        position: absolute;
+        top: -50px;
+        transform: rotate(35deg);
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        width: 50px;
+        z-index: -10;
+    }
+}
+
+.btn-4:hover {
+    &:after {
+        left: 120%;
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+} */
+
+.LoginCls{
+    position: relative;
+    right: 250px;
+    bottom: 70px;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+}
+.LoginCls:hover{
+    color: #FFBC09;
+    transition: ease-in-out 0.2s;
+}
+.span{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    right: 75px;
+    background-color: #FFBC09;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    display: block;
+}
+
+.yellowTagName{
+    color: #FFBC09;
+    font-size: 35px;
+}
+#apply{
+    color: #fff;
+    float: right;
+    position: relative;
+    right: 75px;
+    bottom: 75px;
+}
+  /* dropdowns navbar menu*/
+  .Edu{
+    font-size: 35px;
+}
+    
+  nav ul li{
+      position: relative;
+      left: 350px;
+      /* font-weight: 300; */
+      font-size: 20px;
+  }
+  .dropdown-item{
+      background-color: #fff !important;
+      color:#000;
+      
+  }
+  .dropdown-item:hover{
+    color: #FFBC09 !important;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+.navbar-brand{
+    position: relative;
+    left: 100px;
+}
+
+.nav-item i{
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    margin-left: 5px;
+
+}
+.nav-item i:hover{
+    color: #FFBC09;
+}
+
+.FixedSetting{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 25px;
+    top: 300px;
+    z-index: 1;
+    background-color: #4ae28e;
+    font-size: 20px;
+}
+.fixedSetting{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 25px;
+    top: 340px;
+    z-index: 1;
+    background-color: #000;
+    font-size: 20px;
+}
+
+nav{
+    z-index: 1 !important;
+    background-color: #fff;
+    width: 100%;
+}
+.fixedSetting button:focus{
+    box-shadow: none !important;
+}
+
+.showCreativeDiv{
+    display: none;
+    background-color: #000;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    right: 200px;
+    bottom: 40px;
+}
+.showCreativeDiv div{
+    display: inline-block;
+    position: inherit;
+    left: 15px;
+}
+.removee{
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    
+    color: #4ae28e;
+    cursor: pointer;
+}
+
+/* input search */
+.clas{
+    background-color: #fff;
+    width: 250px;
+    border: 1px solid #666f79;
+    border-top: none;
+    height: 50px;
+    position: fixed;
+    top: 82px;
+    right: 105px;
+}
+.clas input{
+    width: 220px;
+    height: 40px;
+    outline: none;
+    border: none;
+    position: inherit;
+
+    
+
+}
+.clas i{
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+.clas i:hover{
+    color: #FFBC0A;
+    transition: 0.5s ease;
+}
+.clas input::placeholder{
+    color: #666f79;
+}
+/* Section Carousel */
+.carousel-header{
+    position: relative !important;
+    bottom: 700px !important;
+    left: 350px;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.carousel-text{
+    position: relative !important;
+    bottom: 700px !important;
+    left: 250px;
+    font-size: 30px;
+    color: #fff;
+}
+/* .carousel-btn{
+} */
+.btn-align-carousel-first{
+    position: relative !important;
+    bottom: 600px !important;
+    right: 550px;
+    font-size: 55px !important;
+}
+.btn-align-carousel{
+    position: relative !important;
+    bottom: 705px !important;
+    left: 750px;
+    font-size: 55px !important;
+}
+/* Section1 Cards */
+.cardIcon1{
+    margin-top: 40px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    background-color: #F64860;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.cardIcon2{
+    margin-top: 40px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    background-color: #FFBC0A;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.cardIcon3{
+    margin-top: 40px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    background-color: #B3D36A;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#SectionCardOne{
+    background-color: #F7F7F7;
+    width: 100% !important;
+    height: 600px!important;
+}
+#SectionCardOne h1{
+    text-align: center;
+    padding-bottom: 20px;
+    transition: 0.2s ease;
+}
+#SectionCardOne p{
+    padding-bottom: 50px;
+}
+.headCard{
+    width: 500px;
+    position: relative;
+    left: 300px;
+}
+.bookLibrary{
+    background-color: #fff !important;
+    margin-left: 15px !important;
+    height: 350px;
+    border-radius: 10px;
+}
+.bookLibrary:hover{
+    position: relative;
+    bottom: 5px;
+    transition: 5s ease !important;
+}
+/* Section two */
+
+#SectionCardTwo .row i{
+    color: #fff;
+    font-size: 50px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+#SectionCardTwo .row h4{
+    color: #fff;
+    position: relative;
+    top: 20px;
+}
+#SectionCardTwo .row .col-lg-2{
+    width: 12% !important;
+    height: 100px !important;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+/* SectionCardThree */
+#SectionCardThree{
+    display: flex;
+}
+
+.video{
+    margin-top: 40px;
+    width: 550px;
+    height: 550px;
+}
+.aboutUs{
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 60%;
+    height: 250px;
+    box-shadow:  10px 5px rgb(172, 158, 158);
+    border: 3px solid rgb(172, 158, 158);
+    border-top-right-radius: 500% !important;
+    border-bottom-right-radius: 500% !important;
+}
+.text{
+    width: 500px;
+}
+/* Section Four Card */
+.courseHeader{
+    margin-top: 150px;
+    display: block;
+    height: auto;
+    width: 500px;
+    position: relative;
+    left: 500px;
+    margin-bottom: 50px;
+}
+#SectionCardFour .row .col-lg-2{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 280px;
+    border: 3px rgb(41, 38, 38) !important;
+    box-shadow: 5px  rgb(31, 30, 30) !important;
+    overflow: hidden;
+}
+.zoom {
+    transition: transform .9s;
+  }
+  #SectionCardFour .row .col-lg-2:hover .zoom {
+    transform: scale(1.09);
+    transition: transform .8s; 
+    
+  }
+  .stars i{
+      color:#FFBC09;
+      display: inline-block;
+      position: relative;
+  }
+  .evaluationCourse{
+      float: right;
+      position: relative;
+      right: 10px;
+      bottom: 25px;
+  }
+  .evaluationCourse hr{
+      width: 55px;
+  }
+  .evaluationCourse:hover{
+      color: #FFBC09;
+      transition: .4s ease;
+      cursor: pointer;
+  }
+.aboutCourse span:hover{
+    color: #FFBC09;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+#SectionCardFour .row .col-lg-2 h6:hover{
+    color: #FFBC09;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.price{
+    background-color:#9effa3;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    
+}
+/* Section five */
+.Counts{
+    width: 100%;
+    margin-top: 250px;
+}
+.Counts img{
+    width: 100%;
+    height: 300px;
+}
+.Counts .col-lg-2{
+    position: relative;
+    bottom: 350px;
+}
+.Counts .col-lg-2 i{
+    font-size: 50px;
+    color: #fff;
+}
+.Counts .col-lg-2 span{
+    color: #fff;
+    font-size: 150px;
+}
+.Counts .col-lg-2 h5{
+    color: #fff;
+    font-size: 25px;
+}
+/* Section six */
+#CardCover {
+    cursor: pointer;
+    width: 330px !important;
+    border: 1px solid rgb(204, 175, 175) !important;
+    box-shadow: 2px 1px rgb(194, 173, 173);
+    border-radius: 5px;
+    margin-left: 20px;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+#CardCover:hover .zoom{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#CardCover img{
+    height: 250px;
+}
+.alignment{
+    width: 100px;
+    height: 120px;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    left: 5px;
+    z-index: 5;
+    border-radius: 15px;
+}
+.intoDiv1{
+    background-color: #FFBC09;
+    height: 85px;
+    font-weight: 700;
+    border-radius: 15px;
+    position: relative;
+    top: 15px;
+
+}
+.intoDiv1 span{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    color: #fff;
+}
+.discription{
+    position: relative;
+    bottom: 150px;
+}
+.discription a{
+    text-decoration: none;
+    color: #FFBC09;
+}
+.discription span{
+    color: #FFBC09;
+}
+.discription i{
+    margin-right: 10px;
+}
+/* Section Seven */
+.imageDiv{
+    background-color: rgba(83, 17, 236, 0.867);
+    width: 100%;
+    height: 800px;
+    margin: 10px 0px;
+}
+.imageCardInput{
+    float: right;
+    position: relative;
+    top: 165px;
+}
+.InputCard{
+    background-color: #203F5F;
+    opacity: 0.95;
+    width: 45%;
+    height: 55%;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    border-radius: 15px;
+}
+.col-lg-2 input{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+    color: #000;
+}
+.col-lg-2 select{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+select::-webkit-input-placeholder{
+    
+    font-size: 20px;
+    line-height: 3;
+    color: #000;
+}
+.Register{
+    position: relative;
+    top: 90px;
+    right: 180px;
+}
+/* Section Eight */
+.SelectGalleries button:first-child{
+    color: #fff;
+    background-color: #FFBC0A;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.SelectGalleries button{
+    
+    font-size: 20px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+    background-color: #DDDDDD;
+    position: relative;
+    left: 500px;
+    margin-left: 10px;
+}
+.SelectGalleries button:hover{
+    background-color: #FFBC0A;
+    color: #fff;
+    transition: 0.4s ease;
+}
+#OurGalleryImages{
+    position: relative;
+    left: 75px;
+    top: 50px;
+}
+#OurGalleryImages .col-lg-3{
+    margin-left: 55px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#OurGalleryImages img{
+    border-radius: 10px;
+}
+
+/* .overlay {
+    position: relative !important;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #00000023;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  #OurGalleryImages .row .col-lg-3:hover .overlay {
+    height: 100% !important;
+  }
+  .textOnCards {
+    white-space: nowrap !important; 
+    color: white;
+    font-size: 100px;
+    position: absolute !important;
+    overflow: hidden;
+    bottom: 50% !important;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    /* -ms-transform: translate(-50%, -50%); */
+  /* } */ 
+
+/* Section Nine */
+.TeachersName{
+    background-color: #fff;
+    width: 255px;
+    height: 150px !important;
+}
+.TeachersName p{
+    font-size: 20px !important;
+    position: relative !important;
+    top: 50px;
+    overflow: hidden;
+    bottom: 100px;
+    color: #000 !important;
+}
+.Teachers{
+    position: relative;
+    bottom: 900px;
+
+}
+.Teachers p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(17, 0, 0) !important;
+
+}
+.TeachersName h5:hover{
+    cursor: pointer;
+    color: #FFBC09;
+    transition: 0.3s ease;
+}
+.OurTeachers{
+    width: 100%;
+    margin-top: 350px;
+    /* transform: scale(1.5); */
+}
+.Teachers .col-lg-3 img , .TeachersName{
+    border-radius: 10px;
+}
+.Teachers .col-lg-3{
+    position: relative;
+    left: 30px;
+}
+/* Section Ten */
+.ten p{
+    text-align: center;
+    margin: 50px auto;
+    color: #666f79;
+    width: 480px;
+}
+.ten{
+    margin-top: -450px;
+}
+.clearfix .firstCastro{
+    margin-left: 50px;
+    border: 1px solid #b9cde4 !important;
+    box-shadow: 2px 2px #666f79;
+    border-radius: 15px !important;
+    width: 550px;
+    height: 200px;
+
+}
+.firstCastro img{
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    position: relative !important;
+    bottom: 150px;
+    right: 40px;
+}
+.StudentsText{
+    width: 450px;
+    position: relative;
+    left: 100px;
+}
+.secondCastro  img{
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    position: relative !important;
+    bottom: 150px;
+    right: 40px;
+}
+.secondCastro{
+    position: relative;
+    left: 700px;
+    bottom: 200px;
+    margin-left: 50px;
+    border: 1px solid #b9cde4 !important;
+    box-shadow: 2px 2px #666f79;
+    border-radius: 15px !important;
+    width: 550px;
+    height: 200px;
+}
+.OurBlog{
+    background-color: rgb(238, 244, 248);
+    width: 100%;
+    height: 700px;
+}
+.gray{
+    color: #666f79;
+}
+.ReadMore{
+    color: #000;
+    text-decoration: none;
+
+}
+.ReadMore:hover{
+    color:#FFBC09;
+    transition: .4s ease;
+}
+.CommentCard , .dateCard{
+    text-decoration: none;
+    color: #666f79;
+}
+.OurBlog .row .col-lg-3{
+    border: 1px solid rgb(13, 26, 26);
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.OurBlog .row .col-lg-3 img{
+    position: relative;
+    right: 12px;
+    width: 335px;
+    overflow: hidden;
+    border-radius: 15px !important;
+}
+#SecondCardBlog{
+    position: relative;
+    left: 400px;
+    bottom: 472px;
+}
+#ThirdCardBlog{
+    position: relative;
+    left: 800px;
+    bottom: 948px;
+}
+.blogbutton{
+    position: relative;
+    right: 370px;
+}
+.blogbutton button{
+    color:#fff !important;
+}
+.blogbutton i{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    right: 55px;
+    top: 7px;
+}
+#viewAllBlog{
+    color: #fff !important;
+    background-color :#FFBC0A;
+}
+.owl-carousel div{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+/* Section Start */
+#rightCount{
+    position: relative !important;
+    left: 1000px !important;
+    bottom: 50px;
+    width: 150px;
+}
+#Training{
+    background-color: rgb(84, 148, 134);
+    width: 100% !important;
+    height: 200px;
+}
+/*About EDU  */
+.YellowName{
+    color: #FFBC09;
+    font-size: 30px;
+
+}
+.whiteName{
+    font-size: 30px;
+    color: #fff;
+}
+.fas.fa-graduation-cap{
+    font-size: 30px;
+    color: #FFBC09;
+}
+.AboutEdu{
+    background-color: #343A40;
+    height: 500px;
+}
+.Edu p{
+    font-size: 15px;
+    color: #fff;
+    width: 250px;
+}
+.yellowhover{
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.yellowhover:hover{
+    color: #FFBC09;
+}
+.EduLab{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.slideRight{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.slideRight:hover{
+    transition: .5s ease;
+    margin-left: 5px;
+    color:#FFBC09;
+}
+.selectUs{
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.post_img img{
+    width: 70px;
+    height: 70px;
+}
+.col-lg-3 li{
+    list-style: none;
+}
+.post_content{
+    position: relative;
+    left: 80px;
+    bottom: 70px;
+    margin-left: 10px;
+}
+.post_footer{
+    position: relative;
+    top: 70px;
+}
+#subscribe{
+    margin-left: -50px;
+    width: 100px;
+    position: relative;
+    bottom: 41px;
+    left: 245px;
+}
+.SubsText{
+    width: 350px;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    right: 50px;
+}
+.col-lg-3 .d-flex{
+    display: inline-block !important;
+    margin-left: 5px;
+
+}
+.d-flex i{
+    font-size: 18px;
+    color: #fff;
+    background-color:#666f79;
+    border-radius: 5px;
+    padding: 10px;
+}
+.d-flex i:hover{
+    color: #FFBC09;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+/* footer */
+.footerTerms{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    position: relative;
+    left: 900px;
+
+}
+.footer{
+    background-color: #202325;
+    width: 100%;
+    height: 100px;
+}
+.footerTerms:hover{
+    color: #FFBC09;
+    transition: .5s ease;
+}
